@@ -1,0 +1,239 @@
+[
+  {
+    "id": 20,
+    "imageURL": "./assets/projects/project_atlantida.png",
+    "title": "Atlantida - Sociedad de Corretaje de Seguros",
+    "tags": [
+      "responsive",
+      "react",
+      "api"
+    ],
+    "description": "Sitio web para un cliente hecho con React y que consume una API para el envío de datos a través de los formularios.",
+    "demoURL": "http://atlantidascs.com/",
+    "codeURL": "https://github.com/javiervaleriano/atlantidascs-project"
+  },
+  {
+    "id": 19,
+    "imageURL": "./assets/projects/project_search_song.png",
+    "title": "Buscador de canciones",
+    "tags": [
+      "responsive",
+      "vanillajs",
+      "api"
+    ],
+    "description": "Proyecto de un buscador de canciones junto con la biografía del artista/banda. Se utiliza el llamado a API's para obtener la información.",
+    "demoURL": "https://javiervaleriano.github.io/buscador-de-canciones/",
+    "codeURL": "https://github.com/javiervaleriano/buscador-de-canciones"
+  },
+  {
+    "id": 18,
+    "imageURL": "./assets/projects/project_edie_homepage.png",
+    "title": "Página de inicio de Edie",
+    "tags": [
+      "responsive",
+      "vanillajs"
+    ],
+    "description": "Proyecto de maquetación de la página de inicio de una compañía ficticia llamada Edie que proporciona servicios de desarrollo web. Uso JavaScript para detalles de presentación y funcionalidad.",
+    "demoURL": "https://javiervaleriano.github.io/devchallenge-edie-homepage/",
+    "codeURL": "https://github.com/javiervaleriano/devchallenge-edie-homepage"
+  },
+  {
+    "id": 17,
+    "imageURL": "./assets/projects/project_checkout_page.png",
+    "title": "Página de pago",
+    "tags": [
+      "responsive",
+      "vanillajs"
+    ],
+    "description": "Maquetación de una página de pago con un carrito de compras simple simulado. Utilizo Sweet Alert 2 para el mensaje exitoso del envío del formulario y Vanilla JS para la funcionalidad de los items al carrito.",
+    "demoURL": "https://javiervaleriano.github.io/devchallenge-checkout-page/",
+    "codeURL": "https://github.com/javiervaleriano/devchallenge-checkout-page"
+  },
+  {
+    "id": 16,
+    "imageURL": "./assets/projects/project_gallery.png",
+    "title": "Galería",
+    "tags": [
+      "responsive"
+    ],
+    "description": "Proyecto de maquetación de la galería del perfil de un fotógrafo.",
+    "demoURL": "https://javiervaleriano.github.io/devchallenge-my-gallery/",
+    "codeURL": "https://github.com/javiervaleriano/devchallenge-my-gallery"
+  },
+  {
+    "id": 15,
+    "imageURL": "./assets/projects/project_recipe_page.png",
+    "title": "Receta culinaria",
+    "tags": [
+      "responsive"
+    ],
+    "description": "Proyecto de maquetación de un artículo de receta culinaria.",
+    "demoURL": "https://javiervaleriano.github.io/devchallenge-recipe-page/",
+    "codeURL": "https://github.com/javiervaleriano/devchallenge-recipe-page"
+  },
+  {
+    "id": 14,
+    "imageURL": "./assets/projects/project_interior_consultant.png",
+    "title": "Consultora de interiores",
+    "tags": [
+      "responsive"
+    ],
+    "description": "Proyecto de maquetación de la homepage de una consultora de interiores.",
+    "demoURL": "https://javiervaleriano.github.io/devchallenge-interior-consultant/",
+    "codeURL": "https://github.com/javiervaleriano/devchallenge-interior-consultant"
+  },
+  {
+    "id": 13,
+    "imageURL": "./assets/projects/project_teampage.png",
+    "title": "Página de presentación del equipo",
+    "tags": [
+      "responsive"
+    ],
+    "description": "Proyecto de maquetación de presentación de equipo.",
+    "demoURL": "https://javiervaleriano.github.io/devchallenge-teampage/",
+    "codeURL": "https://github.com/javiervaleriano/devchallenge-teampage"
+  },
+  {
+    "id": 12,
+    "imageURL": "./assets/projects/project_pomodoro.png",
+    "title": "Reloj Pomodoro",
+    "tags": [
+      "responsive",
+      "react"
+    ],
+    "description": "Programación de un Reloj Pomodoro, útil para la eficiencia y la concentración al momento de realizar deberes.",
+    "demoURL": "https://codepen.io/javiervaleriano/full/OJgaGNQ",
+    "codeURL": "https://codepen.io/javiervaleriano/details/OJgaGNQ"
+  },
+  {
+    "id": 11,
+    "imageURL": "./assets/projects/project_calculator.png",
+    "title": "Calculadora",
+    "tags": [
+      "responsive",
+      "react"
+    ],
+    "description": "Programación de una calculadora.",
+    "demoURL": "https://codepen.io/javiervaleriano/full/mdwjwKK",
+    "codeURL": "https://codepen.io/javiervaleriano/details/mdwjwKK"
+  },
+  {
+    "id": 10,
+    "imageURL": "./assets/projects/project_drumpad.png",
+    "title": "Almohadilla de batería",
+    "tags": [
+      "responsive",
+      "react"
+    ],
+    "description": "Proyecto de una almohadilla de batería (drumpad) totalmente funcional, con volumen ajustable, interruptor de encendido y de sonidos.",
+    "demoURL": "https://codepen.io/javiervaleriano/full/KKqqrMJ",
+    "codeURL": "https://codepen.io/javiervaleriano/details/KKqqrMJ"
+  },
+  {
+    "id": 9,
+    "imageURL": "./assets/projects/project_hogwarts.png",
+    "title": "Portafolio de Hogwarts",
+    "tags": [
+      "angular",
+      "api"
+    ],
+    "description": "Portafolio institucional de Hogwarts con datos solicitados a una API acerca de sus personajes (estudiantes y profesores). Formulario incluido para simular el envío de datos para una solicitud de admisión.",
+    "demoURL": "https://javiervaleriano.github.io/hogwarts-portfolio/",
+    "codeURL": "https://github.com/javiervaleriano/hogwarts-portfolio"
+  },
+  {
+    "id": 8,
+    "imageURL": "./assets/projects/project_quotes.png",
+    "title": "Generador de citas aleatorias",
+    "tags": [
+      "vanillajs",
+      "bootstrap",
+      "api"
+    ],
+    "description": "Esta aplicación obtiene las citas a través de una llamada a una API con la posibilidad de compartirla por Twitter.",
+    "demoURL": "https://javiervaleriano.github.io/citas-aleatorias/#",
+    "codeURL": "https://github.com/javiervaleriano/citas-aleatorias"
+  },
+  {
+    "id": 7,
+    "imageURL": "./assets/projects/project_image_slider.png",
+    "title": "Deslizador de imágenes",
+    "tags": [
+      "vanillajs"
+    ],
+    "description": "Un deslizador de imágenes con temática de obras de arte con breve info de cada una. Está habilitado el cambio de imagen con las flechas del teclado.",
+    "demoURL": "https://javiervaleriano.github.io/constant-image-slider/",
+    "codeURL": "https://github.com/javiervaleriano/constant-image-slider"
+  },
+  {
+    "id": 6,
+    "imageURL": "./assets/projects/project_todolist.png",
+    "title": "CRUD de tareas",
+    "tags": [
+      "responsive",
+      "vanillajs",
+      "api",
+      "crud"
+    ],
+    "description": "Un CRUD con temática de tareas por hacer, que no pierde los datos debido a que hace uso del LocalStorage.",
+    "demoURL": "https://javiervaleriano.github.io/javier-lista-quehaceres/",
+    "codeURL": "https://github.com/javiervaleriano/javier-lista-quehaceres"
+  },
+  {
+    "id": 5,
+    "imageURL": "./assets/projects/project_newyear_countdown.png",
+    "title": "Cuenta atrás para año nuevo",
+    "tags": [
+      "responsive",
+      "vanillajs"
+    ],
+    "description": "Una cuenta atrás para el siguiente año que se actualiza automáticamente cuando el año nuevo llega, es decir, nunca queda obsoleto.",
+    "demoURL": "https://javiervaleriano.github.io/javier-newyear-project/index.html",
+    "codeURL": "https://github.com/javiervaleriano/javier-newyear-project"
+  },
+  {
+    "id": 4,
+    "imageURL": "./assets/projects/project_tabs.png",
+    "title": "Proyecto de pestañas",
+    "tags": [
+      "responsive",
+      "vanillajs"
+    ],
+    "description": "Proyecto que alterna información al seleccionar diferentes pestañas en la página.",
+    "demoURL": "https://javiervaleriano.github.io/javier-tabs-project/",
+    "codeURL": "https://github.com/javiervaleriano/javier-tabs-project"
+  },
+  {
+    "id": 3,
+    "imageURL": "./assets/projects/project_color_flipper.png",
+    "title": "Cambiador de colores",
+    "tags": [
+      "vanillajs"
+    ],
+    "description": "Un cambiador de colores que te proporciona aleatoriamente un color con su código en el formato que necesites, reflejándose en el fondo como muestra.",
+    "demoURL": "https://javiervaleriano.github.io/javier-color-flipper/rgb.html",
+    "codeURL": "https://github.com/javiervaleriano/javier-color-flipper"
+  },
+  {
+    "id": 2,
+    "imageURL": "./assets/projects/project_reviews_carousel.png",
+    "title": "Carrusel de reseñas",
+    "tags": [
+      "vanillajs"
+    ],
+    "description": "Proyecto de un carrusel de reseñas con un esquema de colores definidos.",
+    "demoURL": "https://javiervaleriano.github.io/javier-reviews-carousel/",
+    "codeURL": "https://github.com/javiervaleriano/javier-reviews-carousel"
+  },
+  {
+    "id": 1,
+    "imageURL": "./assets/projects/project_counter.png",
+    "title": "Contador",
+    "tags": [
+      "vanillajs"
+    ],
+    "description": "Una aplicación sencilla de un contador para practicar la manipulación del DOM.",
+    "demoURL": "https://javiervaleriano.github.io/javier-counter/",
+    "codeURL": "https://github.com/javiervaleriano/javier-counter"
+  }
+]

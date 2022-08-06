@@ -1,0 +1,1 @@
+export const qtyItemsDisplayed = (viewportWidth) => viewportWidth < 650 ? 1 : viewportWidth < 970 ? 2 : 3;

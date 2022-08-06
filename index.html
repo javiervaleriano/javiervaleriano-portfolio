@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/0308592a26.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!-- SECCIÓN DE PRESENTACIÓN -->
+    <section class="section section__presentation">
+      <img src="./assets/portfolio-img.jpeg" alt="Javier Valeriano" class="presentation__img">
+      <header class="presentation__header">
+        <div class="presentation__info">
+          <h1>Javier Valeriano</h1>
+          <p class="presentation__info__occupation">Desarrollador Front-end</p>
+        </div>
+        <div class="presentation__contact">
+          <p class="presentation__contact__mail">
+            <i class="fa-solid fa-envelope"></i> <a href="mailto:jvalerianoz15@gmail.com">jvalerianoz15@gmail.com</a>
+          </p>
+          <p class="presentation__contact__phone">
+            <i class="fa-solid fa-phone"></i> <a href="tel:+584120903668">(+58) 412 090 36 68</a>
+          </p>
+        </div>
+      </header>
+      <div>
+        <p class="presentation__bio">Desarrollador Front-end autodidacta con interés en la mejora continua
+          tanto profesional como personalmente y con experiencia adquirida a través de diversos equipos de trabajo con
+          tecnologías relevantes.</p>
+        <p class="presentation__bio">Consciente de la importancia de la actualización de conocimiento en un mundo de
+          lenguajes y herramientas emergentes constantemente.</p>
+      </div>
+    </section>
+    <!-- ----------------------- -->
+    <div class="grid-1-2">
+      <!-- SECCIÓN DE HABILIDADES -->
+      <section class="section section__skills">
+        <header>
+          <h2>Habilidades</h2>
+        </header>
+        <ul class="section__skills__list">
+          <li>
+            <span>React</span>
+            <div id="react-progress" class="skills__progress">
+              <div id="react-bar" class="skills__progress__bar"></div>
+            </div>
+          </li>
+          <li>
+            <span>Angular</span>
+            <div id="angular-progress" class="skills__progress">
+              <div id="angular-bar" class="skills__progress__bar"></div>
+            </div>
+          </li>
+          <li>
+            <span>JavaScript</span>
+            <div id="js-progress" class="skills__progress">
+              <div id="js-bar" class="skills__progress__bar"></div>
+            </div>
+          </li>
+          <li>
+            <span>CSS</span>
+            <div id="css-progress" class="skills__progress">
+              <div id="css-bar" class="skills__progress__bar"></div>
+            </div>
+          </li>
+          <li>
+            <span>Redux</span>
+            <div id="redux-progress" class="skills__progress">
+              <div id="redux-bar" class="skills__progress__bar"></div>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <!-- ---------------------- -->
+      <!-- SECCIÓN DE RR.SS. -->
+      <section class="section section__socialmedia">
+        <header>
+          <h2>Redes Sociales</h2>
+        </header>
+        <ul class="section__socialmedia__list">
+          <li class="section__socialmedia__listitem">
+            <a href="https://codepen.io/javiervaleriano" target="_blank" id="codepen-link">
+              <i class="fa-brands fa-codepen"></i>
+              Codepen
+            </a>
+          </li>
+          <li class="section__socialmedia__listitem">
+            <a href="https://devchallenges.io/portfolio/javiervaleriano" target="_blank" id="devch-link">
+              <i class="fa-solid fa-code"></i>
+              Devchallenges.io
+            </a>
+          </li>
+          <li class="section__socialmedia__listitem">
+            <a href="https://github.com/javiervaleriano" target="_blank" id="github-link">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+          </li>
+          <li class="section__socialmedia__listitem">
+            <a href="https://twitter.com/javaleriano2" target="_blank" id="twitter-link">
+              <i class="fa-brands fa-twitter"></i>
+              Twitter
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- ----------------- -->
+      <!-- SECCIÓN DE EXPERIENCIAS -->
+      <section class="section section__experiences">
+        <header>
+          <h2>Experiencias</h2>
+        </header>
+        <article class="experience">
+          <img src="./assets/experiencies/tes_exp.jpeg" alt="Logo de TES" class="experience__img">
+          <div>
+            <header class="experience__header">
+              <h4 class="experience__time">Nov 2021 - Actualidad</h4>
+              <h3 class="experience__job">Desarrollador Angular Junior</h3>
+            </header>
+            <ul class="experience__desc">
+              <li>Participo en la migración a tecnologías actuales de un software anticuado, mejorando considerablemente
+                la faceta visual y de experiencia de usuario</li>
+              <li>Optimizo y facilito para las empresas de Seguros clientes la gestión de sus datos</li>
+              <li>Implemento características y funcionalidades en el software acorde a los intereses y necesidades de
+                los usuarios.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="experience">
+          <img src="./assets/experiencies/ik_exp.jpeg" alt="Logo de InstaKash" class="experience__img">
+          <div>
+            <header class="experience__header">
+              <h4 class="experience__time">Mar 2022 - Jun 2022</h4>
+              <h3 class="experience__job">Desarrollador React Junior</h3>
+            </header>
+            <ul class="experience__desc">
+              <li>Solventé errores de producción relevantes para las ganancias de la empresa y la retención de usuarios
+                en la app web, usando Sentry y Error Boundary como herramientas para su detección</li>
+              <li>Implementé ideas que mejoraron la experiencia de usuario en la aplicación web</li>
+              <li>Rediseñé la aplicación de la empresa, dando una imagen corporativa de mayor profesionalismo y
+                vanguardismo</li>
+              <li>Desarrollé interfaces de usuario usando Redux como gestor del estado y Axios para el consumo de
+                microservicios</li>
+              <li>Abastecí de funcionalidades a la plataforma administradora de la empresa, habilitando una mejor
+                gestión de los usuarios e interacción con ellos.</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <!-- ----------------------- -->
+      <!-- SECCIÓN DE HOBBIES -->
+      <section class="section section__hobbies">
+        <header>
+          <h2>Hobbies</h2>
+        </header>
+        <article class="hobby">
+          <img src="./assets/hobbies/hobby_sports.jpg" alt="Césped de una cancha de fútbol" class="hobby__img">
+          <h3 class="hobby__title">Deportes</h3>
+          <p class="hobby__desc">Mi deporte favorito es el fútbol, pero me gustan los deportes en general.</p>
+        </article>
+        <article class="hobby">
+          <img src="./assets/hobbies/hobby_gym.jpg" alt="Puesto de pesas en un gimnasio" class="hobby__img">
+          <h3 class="hobby__title">Gym</h3>
+          <p class="hobby__desc">Hago actividad física constantemente, actualmente acudo al gimnasio.</p>
+        </article>
+        <article class="hobby">
+          <img src="./assets/hobbies/hobby_investments.jpg"
+            alt="Laptop con un gráfico de un mercado de acciones de empresa" class="hobby__img">
+          <h3 class="hobby__title">Inversiones</h3>
+          <p class="hobby__desc">Seguidor de las inversiones, soy alguien interesado en la estabilidad financiera.</p>
+        </article>
+        <article class="hobby">
+          <img src="./assets/hobbies/hobby_gaming.jpg" alt="Dos controles de PS4 con un videojuego de fondo en la TV"
+            class="hobby__img">
+          <h3 class="hobby__title">Videojuegos</h3>
+          <p class="hobby__desc">Desde pequeño me han gustado mucho los videojuegos.</p>
+        </article>
+      </section>
+      <!-- ------------------ -->
+    </div>
+    <!-- SECCIÓN DE PROYECTOS -->
+    <section class="section__projects">
+      <header class="projects__header">
+        <h2>Proyectos (<span class="projects__header__qty">0</span>)</h2>
+        <div class="projects__header__btns__cntnr">
+        </div>
+      </header>
+      <div class="projects__cntnr">
+      </div>
+      <footer class="projects__footer">
+        <nav class="projects__footer__pager">
+          <ul class="footer__pager__list">
+            <li class="footer__pager__item footer__pager__arrows pager__arrow__left">
+              <i class="fa-solid fa-angle-left"></i>
+            </li>
+            <span class="footer__pager__positions__cntnr">
+            </span>
+            <li class="footer__pager__item footer__pager__arrows pager__arrow__right">
+              <i class="fa-solid fa-angle-right"></i>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </section>
+    <!-- -------------------- -->
+  </main>
+  <footer class="footer">
+    <p class="footer__author">creado por <span class="author__name">Javier Valeriano</span></p>
+  </footer>
+</body>
+
+</html>
