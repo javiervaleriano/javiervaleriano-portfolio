@@ -1,0 +1,64 @@
+{
+  "name": "Javier Valeriano | Desarrollador Front-end",
+  "short_name": "Javier Valeriano | Desarrollador Front-end",
+  "description": "Bienvenid@s al portafolio estilo CV de Javier Valeriano como Desarrollador Front-end, podrás acceder a cada proyecto y analizar su código si así gustas.",
+  "background_color": "#2F80ED",
+  "theme_color": "#F2F2F2",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-VE",
+  "icons": [
+    {
+      "src": "./assets/icon/icon_1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/icon_32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "./assets/icon/favicon.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
