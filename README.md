@@ -10,7 +10,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/pcXPt2N4kfR7Pw5voFIb">
       Solución / Solution
     </a>
     <span> | </span>
@@ -27,7 +27,7 @@
 - [Visión general | Overview](#visi%C3%B3n-general--overview)
   - [Construido con | Built With](#construido-con--built-with)
 - [Características | Features](#caracter%C3%ADsticas--features)
-- [Cómo usar | How to use](#how-to-use)
+- [Cómo usar | How to use](#c%C3%B3mo-usar--how-to-use)
 - [Agradecimientos | Acknowledgements](#agradecimientos--acknowledgements)
 - [Contacto | Contact](#contacto--contact)
 
