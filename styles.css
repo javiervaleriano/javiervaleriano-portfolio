@@ -71,7 +71,8 @@ img {
 
 /* Estilos comunes para evitar repetición */
 .section__experiences h2,
-.section__hobbies h2 {
+.section__hobbies h2,
+.section__certificates h2 {
   color: var(--body-secondary);
   font-weight: var(--medium);
   margin-bottom: 24px;
@@ -182,7 +183,15 @@ div.presentation__contact {
 }
 
 #angular-bar {
+  width: 65%;
+}
+
+#ts-bar {
   width: 70%;
+}
+
+#scss-bar {
+  width: 50%;
 }
 
 #js-bar {
@@ -314,6 +323,46 @@ div.presentation__contact {
   margin: 0;
 }
 
+
+/*** SECCIÓN DE CERTIFICADOS ***/
+.platform {
+  margin-bottom: 35px;
+}
+
+.platform:last-of-type {
+  margin-bottom: 0;
+}
+
+.platform__title {
+  font-size: 16px;
+  color: var(--section-subtitle);
+  font-weight: var(--semibold);
+  margin-top: 13px;
+}
+
+.platform__icon {
+  margin-right: 7px;
+}
+
+.platform__certificates__list {
+  color: var(--body);
+  font-weight: var(--medium);
+}
+
+.platform__certificates__list li {
+  margin-bottom: 8px;
+}
+
+.platform__certificates__list li a {
+  transition: all 0.4s;
+}
+
+.platform__certificates__list li a:hover {
+  color: var(--section-subtitle);
+  text-decoration: underline;
+}
+
+
 /*** SECCIÓN DE HOBBIES ***/
 .hobby {
   margin-bottom: 50px;
@@ -345,7 +394,7 @@ div.presentation__contact {
 }
 
 
-/* SECCIÓN DE PROYECTOS */
+/*** SECCIÓN DE PROYECTOS ***/
 /* Compartidos */
 .projects__header,
 .project__tags {
@@ -544,6 +593,7 @@ div.presentation__contact {
 }
 
 
+/*** MEDIA QUERIES ***/
 @media screen and (min-width: 640px) {
   .section {
     padding: 20px;
@@ -590,17 +640,30 @@ div.presentation__contact {
   }
 
   .section__socialmedia {
+    height: fit-content;
     grid-row: 1 / span 1;
   }
 
-  .section__hobbies {
+  /* SECCIÓN DE CERTIFICADOS */
+  .section__certificates {
     grid-row: 2 / span 1;
+    height: fit-content;
+  }
+
+  /* SECCIÓN DE HOBBIES */
+  .section__hobbies {
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 1;
   }
 
   /* SECCIONES DE HABILIDADES Y EXPERIENCIAS */
   .section__skills,
   .section__experiences {
     grid-column: 2 / span 1;
+  }
+
+  .section__experiences {
+    grid-row: 2 / span 2;
   }
 
   /* SECCIÓN DE PROYECTOS */

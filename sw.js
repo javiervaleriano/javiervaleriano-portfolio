@@ -43,7 +43,10 @@ const CACHE_NAME = "V1_cache_portafolio_cv",
     "./assets/projects/project_search_song.png",
     "./assets/projects/project_tabs.png",
     "./assets/projects/project_teampage.png",
-    "./assets/projects/project_todolist.png"
+    "./assets/projects/project_todolist.png",
+    "./assets/projects/project_reusable_button.png",
+    "./assets/projects/project_reusable_input.png",
+    "./assets/projects/project_windbnb.png"
   ];
 
 self.addEventListener("install", e => {

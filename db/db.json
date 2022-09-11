@@ -1,5 +1,42 @@
 [
   {
+    "id": 23,
+    "imageURL": "./assets/projects/project_windbnb.png",
+    "title": "Windbnb",
+    "tags": [
+      "responsive",
+      "react",
+      "typescript"
+    ],
+    "description": "Windbnb es un proyecto de un clon superficial de la interfaz de Airbnb. Mi primer proyecto hecho con TypeScript.",
+    "demoURL": "https://javiervaleriano.github.io/windbnb",
+    "codeURL": "https://github.com/javiervaleriano/windbnb"
+  },
+  {
+    "id": 22,
+    "imageURL": "./assets/projects/project_reusable_input.png",
+    "title": "Componente de entrada reutilizable",
+    "tags": [
+      "responsive",
+      "react"
+    ],
+    "description": "Proyecto personal de un componente de campo de formulario (Input) reutilizable, con diseño de plantilla.",
+    "demoURL": "https://javiervaleriano.github.io/reusable-input-component",
+    "codeURL": "https://github.com/javiervaleriano/reusable-input-component"
+  },
+  {
+    "id": 21,
+    "imageURL": "./assets/projects/project_reusable_button.png",
+    "title": "Componente de botón reutilizable",
+    "tags": [
+      "responsive",
+      "react"
+    ],
+    "description": "Proyecto personal de un componente de botón reutilizable, con diseño de plantilla.",
+    "demoURL": "https://javiervaleriano.github.io/reusable-button-component",
+    "codeURL": "https://github.com/javiervaleriano/reusable-button-component"
+  },
+  {
     "id": 20,
     "imageURL": "./assets/projects/project_atlantida.png",
     "title": "Atlantida - Sociedad de Corretaje de Seguros",
